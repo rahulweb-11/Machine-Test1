@@ -1,0 +1,21 @@
+button{
+    background-color: rgba(35, 101, 241, 0.794);
+    margin-left: 550px;
+    margin-top: 150px;
+    border: none;
+    height: 50px;
+    width: 110px;
+    font-weight: 500;
+    border-radius: 3px 3px 3px 3px;
+}
+button:hover{
+    background-color: rgba(89, 138, 245, 0.794);
+    color: white;
+    border: 2px solid rgba(98, 183, 240, 0.842);
+}
+@media(width: 500px){
+    button{
+        margin-top: 100px;
+        margin-left: 200px;
+    }
+}
